@@ -45,3 +45,20 @@ a {
   background-color: #212ea0;
   color: #fff;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    padding-top: 10px;
+  }
+}
